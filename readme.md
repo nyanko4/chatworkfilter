@@ -3,7 +3,7 @@
 </a><br>
 上のボタンを押しBlueprint Nameに適当に入れ、Deploy Blueprintを押す。<br>
 Create web service chatworkfilterと書かれている部分のchatworkfilterを押す。<br>
-押した後、https://chatworkfilter・・・と続く部分をコピーし<a href="https://www.chatwork.com">Chatwork</a>に移動しする。<br>
+押した後、https://chatworkfilter・・・と続く部分をコピーし<a href="https://www.chatwork.com">Chatwork</a>に移動する。<br>
 botにしたいaccountのaccountIdをコピーしておく。(自分のコメントを引用し、aid=に続く数字をコピーすると良い)<br>
 画面右上にある自分のアイコン、名前が書かれている部分をタップ、サービス連携を押し、<a href="https://www.chatwork.com/service/packages/chatwork/subpackages/api/token.php">APIトークン</a>をコピーする。次に<a href="https://www.chatwork.com/service/packages/chatwork/subpackages/webhook/list.php">webhook</a>と書かれている部分を押す。<br>
 新規作成を押し、webhook名は適当に入れ、先程コピーしたURLを入れその後に/getchatと入れる。<br>
