@@ -7,6 +7,8 @@ services:
     buildCommand: "npm install"
     startCommand: "node app.js"
     envVars:
+      - key: accountId
+        value: ""
       - key: CWapitoken
         value: ""
       - key: webhookToken
