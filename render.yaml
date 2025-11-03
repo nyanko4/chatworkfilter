@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: chatworkfilter
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node app.js"
+    envVars:
+      - key: CWapitoken
+        value: ""
+      - key: webhookToken
+        value: ""
