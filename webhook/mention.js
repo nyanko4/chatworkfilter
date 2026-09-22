@@ -1,7 +1,6 @@
 const msedit = require("../ctr/message");
 const { blockMember } = require("../ctr/filter");
 const { isUserAdmin } = require("../ctr/cwdata");
-const arashi = require("../module/arashi");
 
 
 async function mentionWebhook(req, res) {
